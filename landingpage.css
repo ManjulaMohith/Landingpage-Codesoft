@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(247, 245, 243);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(16, 16, 17);
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    font-family:  Nunito,sans-serif;
+}
+nav a:hover{
+    color: #1089d4;
+}
+nav a:first-child{
+    color: #1089d4;
+}
+/* section */
+.home1{
+    padding-top: 130px;
+}
+section em{
+    word-spacing: 3px;
+    line-height: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #405263;
+    font-size: 18px;
+}
+span{
+    color: #28a745;
+}
+section p{
+    line-height: 2rem;
+    color:#405263;
+    font-size: 1.2rem;
+    word-spacing: 10px;
+    font-weight: 400;
+    margin: 20px;
+}
+section h1{
+    line-height: 1.5;
+    font-size: 2rem;
+    font-family: inherit;
+}
+.button1{
+    height: 70px;
+    background-color: #ff6d00;
+    padding: 9px 19px;
+    box-shadow: 0 8px 40px 0 rgba(0,0,0,.37);
+    border: 1px solid transparent;
+    color: white;
+    font-weight: 700;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+.button1:hover{
+    box-shadow: 0px 0px 0px 0px white;
+    background-color: rgb(255, 132, 0);
+    transition: box-shadow 1s;
+}
+/* section2 */
+.section2{
+    padding: 50px;
+}
+ul li{
+    padding-bottom: 10px;
+    font-family: Nutino,sans-serif;
+}
+.section2 h4{
+    padding:40px;
+}
+.section2 h3{
+    font-family: Nutino,sans-serif;
+    word-spacing: 5px;
+    line-height: 40px;
+    font-weight: 500;
+}
+.section2 small{
+    display: block;
+    text-align: center;
+}
+.button2{
+    height: 70px;
+    background-color: #ff6d00;
+    padding: 9px 19px;
+    box-shadow: 0 8px 40px 0 rgba(0,0,0,.37);
+    border: 1px solid transparent;
+    color: white;
+    font-weight: 700;
+    word-spacing: 2px;
+    line-height: 22px;
+    margin: 5px 150px;
+    display: block;
+    margin: auto;
+}
+.button2:hover{
+    box-shadow: 0px 0px 0px 0px white;
+    background-color: rgb(255, 132, 0);
+    transition: box-shadow 1s;
+}
+/* why section  */
+#why h2{
+    font-size: 30px;
+    margin: 30px;
+    text-align: center;
+    font-weight: 500;
+    font-family: inherit;
+    color: rgb(244, 14, 14);
+    word-spacing: 5px;
+}
+#why p{
+    color:#405263;
+    opacity: 0.7;
+}
+#why .fa-solid{
+    font-size: 50px;
+    color: #b0e6bc;
+    margin-bottom: 20px;
+}
+.button3{
+    height: 70px;
+    background-color: #ff6d00;
+    padding: 9px 19px;
+    box-shadow: 0 8px 40px 0 rgba(0,0,0,.37);
+    border: 1px solid transparent;
+    color: white;
+    font-weight: 700;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    margin: 5px 150px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+.button3:hover{
+    box-shadow: 0px 0px 0px 0px white;
+    background-color: rgb(187, 104, 16);
+    transition: box-shadow 1s;
+}
+/* curriculum section */
+.card1{
+    border: 1px solid grey;
+    background-color: rgb(52, 32, 91);
+    text-align: center;
+    padding: 10px 0px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 30px;
+    line-height: 2rem;
+    margin-right: 25px;
+    color: white !important;
+}
+#curriculum h3{
+    color: #1ba41f;
+}
+
+/* curriculum section */
+#curriculum h2{
+    font-family:sans-serif;
+    text-align: center;
+}
+#curriculum h4{
+    color: grey;
+    font-size: 20px;
+    font-weight: 400;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+#curriculum span{
+    color: burlywood;
+}
+#curriculum .card1:hover{
+    box-shadow: 0 8px 40px 0 rgba(36, 34, 34, 0.37);
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.table{
+    font-family: sans-serif;
+    
+}
+/* faq */
+.faq-container{
+    max-width: 600px;
+            margin: 0 auto;
+}
+.faq-question {
+    cursor: pointer;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+}
+.faq-answer {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    background-color: #fff;
+}
+/* footer */
+#footer{
+    background-color: #405263;
+    color: white;
+    padding: 20px 30px;
+}
+.fa-brands{
+    font-size: 26px;
+}
